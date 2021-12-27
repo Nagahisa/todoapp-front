@@ -1,4 +1,4 @@
-const BaseURL = 'https://todoapp-kenzo.herokuapp.com/api/todos'
+const BaseURL = 'https://todoapp-kenzo.herokuapp.com'
 
 export const getAllLists = async () => {
   const res = await fetch(`${BaseURL}/todos`, {
