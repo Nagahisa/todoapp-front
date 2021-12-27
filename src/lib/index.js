@@ -1,4 +1,4 @@
-const BaseURL = 'https://trello-server-331705-xxe5t7bbba-an.a.run.app/api';
+const BaseURL = 'https://todoapp-kenzo.herokuapp.com/api/todos'
 
 export const getAllLists = async () => {
   const res = await fetch(`${BaseURL}/todos`, {
